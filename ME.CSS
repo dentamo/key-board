@@ -1,0 +1,61 @@
+.keyboard {
+    grid-template-columns: repeat(10, 1fr); 
+    grid-gap: 5px;
+    background-color: #08b4f8; 
+    padding: 10px;
+    border-radius: 17px;
+  }
+  
+  .key {
+    width: 100px; 
+    height: 100px; 
+    background-color: #0c0909; 
+    border: 1px solid #cccccc; 
+    border-radius: 5px; 
+    font-size: 16px;
+    color: #f2f2f2;
+  }
+  .keyw
+  {
+    width: 500px; 
+    height: 100px;
+    background-color: #0c0909; 
+    border: 1px solid #cccccc; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    color: #f2f2f2;
+  }
+  .keym
+  {
+    width: 300px;
+    height: 100px; 
+    background-color: #0c0909;
+    border: 1px solid #cccccc;
+    border-radius: 5px; 
+    font-size: 16px; 
+    color: #f2f2f2;
+  }
+.row
+{
+    display: flex;
+}  
+#ersamo
+{
+  height: 220px;
+  width: 95%;
+  margin-bottom: 2px;
+  margin-top:-3%;
+}
+.ersamodentamo
+{
+  background-color: bisque;
+  color: black;
+}
+.key.active {
+  color: white;
+  background-color: blue;
+}
+.keyw.active {
+  color: white;
+  background-color: blue;
+}
